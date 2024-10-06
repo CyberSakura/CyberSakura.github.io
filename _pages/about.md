@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>STH 309</p>
@@ -28,15 +28,13 @@ profile:
       </a> 
     </p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-I'm pursuing a Ph.D in the Computer Science program at Tulane University and working as a research assistant under the supervision of [Prof.Rebecca Faust](https://rjfaust.github.io/). Before joining the Tulane, I completed my Master degree at M.S in Software Engineering in University of California, Irvine(UCI) under the supervision of [Prof.Joshua Garcia](https://jgarcia.ics.uci.edu/). I earned my undergraduate degree in Computer Science and Engineering specialized in Software Engineering from The Ohio State University (OSU) in 2022.
+## Bio
+I'm pursuing a Ph.D in the Computer Science program at Tulane University and working as a research assistant under the supervision of [Prof.Rebecca Faust](https://rjfaust.github.io/). Before joining the Tulane, I completed my Master degree at M.S in Software Engineering in University of California, Irvine(UCI) under the supervision of [Prof.Joshua Garcia](https://jgarcia.ics.uci.edu/) and earned my undergraduate degree in Computer Science and Engineering specialized in Software Engineering from The Ohio State University (OSU) in 2022.
 
-
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research
+My primary research interests lie at the intersection of software engineering, static analysis, and data visualization. Currently, my work focuses on exploring the feasibility of visualizing trace data during the debugging process of Python and Jupyter Notebook scripts. Previously, I was mainly working on the Breaking Strong Encapsulation (BSE) issues under the Java Platform Module System (JPMS), and the implementation of leveraging static analysis techniques to detect potential BSE-related issues from the Java source code known as <a href="https://escholarship.org/content/qt2tf1d64x/qt2tf1d64x.pdf?t=shqqb9">BEAD</a>.
