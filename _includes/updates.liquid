@@ -1,0 +1,71 @@
+<h2>
+  <a href="#" style="color: inherit">recent updates</a>
+</h2>
+
+<div class="updates-container">
+  {% if site.data.updates %}
+    {% for update in site.data.updates %}
+      <div class="update-item">
+        <div class="update-date">{{ update.date }}</div>
+        <div class="update-content">{{ update.content }}</div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No updates available.</p>
+  {% endif %}
+</div>
+
+<style>
+.updates-container {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #e9ecef;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.update-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.update-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.update-date {
+  font-weight: 600;
+  color: #007bff;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.update-content {
+  color: #495057;
+  line-height: 1.4;
+}
+
+/* Custom scrollbar */
+.updates-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.updates-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.updates-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.updates-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+</style>

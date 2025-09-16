@@ -2,96 +2,92 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yongbo Chen
+    - name: Email
+      value: ychen88@tulane.edu
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Tulane University, New Orleans, LA
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research Assistant under supervision of Prof. Rebecca Faust
+        - Focus on software engineering, static analysis, and data visualization
+        - Exploring trace data visualization for Python and Jupyter Notebook debugging
+    - title: M.S. in Software Engineering
+      institution: University of California, Irvine, CA
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: "Automatic Detection of Breaking Strong Encapsulation in Java Modules"
+        - Supervised by Prof. Joshua Garcia
+        - Developed BEAD tool for detecting BSE issues using static analysis
+    - title: B.S. in Computer Science and Engineering
+      institution: The Ohio State University, Columbus, OH
+      year: 2018 - 2022
+      description:
+        - Specialized in Software Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Tulane University, New Orleans, LA
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working under supervision of Prof. Rebecca Faust
+        - Research focus on trace data visualization for debugging Python and Jupyter Notebook scripts
+        - Developing tools for software engineering and static analysis
+    - title: Graduate Research Assistant
+      institution: University of California, Irvine, CA
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Conducted research on Java Platform Module System (JPMS)
+        - Developed BEAD tool for detecting Breaking Strong Encapsulation (BSE) issues
+        - Implemented static analysis techniques for Java source code analysis
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://escholarship.org/content/qt2tf1d64x/qt2tf1d64x.pdf?t=shqqb9">BEAD</a>
+      year: 2020-2022
+      description: Automatic Detection of Breaking Strong Encapsulation in Java Modules using static analysis techniques.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Master's Thesis: "Automatic Detection of Breaking Strong Encapsulation in Java Modules"
+    - year: 2021
       items:
-        - Max Planck Medal
+        - IEEE Conference Publication: "A New Vehicle Distance Measure Method Based on the License Plate with Image Edge Detection and Color Recognition"
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Software Engineering
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Static analysis and program analysis
+        - Software debugging and trace analysis
+        - Code quality and maintainability
+    - title: Data Visualization
       items:
-        - Description 1.
-        - Description 2.
+        - Interactive visualization tools
+        - Trace data visualization for debugging
+        - Python and Jupyter Notebook visualization
+    - title: Programming Languages
+      items:
+        - Java Platform Module System (JPMS)
+        - Python development and debugging
+        - Static analysis tool development
 
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Programming Languages:</u> Java, Python, JavaScript, C++, C
+    - <u>Tools & Frameworks:</u> Jekyll, Git, Jupyter Notebook, Static Analysis Tools
+    - <u>Research Areas:</u> Software Engineering, Static Analysis, Data Visualization

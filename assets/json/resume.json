@@ -1,50 +1,4 @@
 {
-//  "basics": {
-//    "name": "Albert Einstein",
-//    "label": "Scientist",
-//    "image": "",
-//    "email": "albert@einstein.de",
-//    "phone": "(912) 123-4567",
-//    "url": "https://alshedivat.github.io/al-folio/",
-//    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-//    "location": {
-//      "address": "2712 Broadway St",
-//      "postalCode": "CA 94115",
-//      "city": "San Francisco",
-//      "countryCode": "US",
-//      "region": "California"
-//    },
-//    "profiles": [
-//      {
-//        "network": "Twitter",
-//        "username": "AlbertEinstein",
-//        "url": "https://twitter.com/AlbertEinstein"
-//      }
-//    ]
-//  },
-//  "work": [
-//    {
-//      "name": "Department of Computer, School of Science and Engineering, Tulane University",
-//      "position": "Research Assistant",
-////      "url": "https://example.com",
-//      "startDate": "2014-08-18",
-//      "endDate": "Present",
-//      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-//      "highlights": ["Relativity"]
-//    }
-//  ],
-//  "volunteer": [
-//    {
-//      "organization": "People's Climate March",
-//      "location": "Zurich, Switzerland",
-//      "position": "Lead Organizer",
-//      "url": "https://example.com",
-//      "startDate": "2014-04-01",
-//      "endDate": "2015-07-01",
-//      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-//      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-//    }
-//  ],
   "education": [
     {
       "institution": "Tulane University",
@@ -55,7 +9,7 @@
       "startDate": "2024-08-18",
       "endDate": "Present",
       "GPA": "N/A",
-      "courses": ["CMPS 6610 Algorithm", "CMPS 6662 Human-Computer Interaction"]
+      "courses": ["CMPS 6370 Data Visualization", "CMPS 6662 Human-Computer Interaction"]
     },
     {
       "institution": "The Ohio State University",
@@ -76,7 +30,7 @@
       "startDate": "2022-09-19",
       "endDate": "2024-06-14",
       "GPA": "3.94/4.00",
-      "courses": ["SWE 211 Software Engineering", "SWE 212 Analysis Programming Language","SWE 214 Software Analysis", "SWE 215 Dynamic Analysis, Testing, Debugging"]
+      "courses": ["SWE 211 Software Engineering", "SWE 212 Analysis Programming Language","SWE 214 Software Analysis", "SWE 215 Dynamic Analysis, Testing, Debugging", "STATS 201 Stat Meth Data I"]
     }
   ],
 //  "awards": [
@@ -134,6 +88,16 @@
 //  ],
   "publications": [
     {
+      "name": "Breaking Strong Encapsulation: A Comprehensive Study of Java Module Abuse",
+      "publisher": "ACM",
+      "releaseDate": "2026-05",
+      "url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/9/Breaking-Strong-Encapsulation-A-Comprehensive-Study-of-Java-Module-Abuse",
+      "summary": "Conducted the first empirical study on Breaking Strong Encapsulation (BSE) in Java Platform Module System (JPMS). Collected and analyzed 4,079 GitHub issues to identify symptoms, abuse sources, and solutions. Our findings reveal a tension between module developers enforcing encapsulation and users attempting to break it, highlighting the need for effective mitigation strategies.",
+      "conference": "2026 IEEE/ACM International Conference on Software Engineering (ICSE)",
+      "status": "Accepted",
+      "authors": ["Y. He", "Y. Chen", "J. Ayala", "Y. Zhou", "Q. Wang", "J. Garcia"]
+    },
+    {
       "name": "A New Vehicle Distance Measure Method Based on the License Plate with Image Edge Detection and Color Recognition in the Complex Environment",
       "publisher": "IEEE",
       "releaseDate": "2021-09",
@@ -146,35 +110,67 @@
   ],
   "skills": [
     {
-      "name": "Software Engineering",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Software Engineering",
-        "Requirement Analysis",
-        "Software Static Analysis",
-        "Programming Language",
-        "Mobile Application Development"
-      ]
-    },
-    {
-      "name": "Data Analysis",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Database Manuipulation",
-        "Qualitative Research"
-      ]
-    },
-    {
-      "name": "Programming Language",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
       "keywords": [
         "Java",
         "Python",
+        "JavaScript",
+        "C++",
         "C#",
-        "PostgreSQL, SQL"
+        "SQL"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Expert",
+      "icon": "fa-solid fa-cogs",
+      "keywords": [
+        "Static Analysis",
+        "Software Architecture",
+        "Module Systems",
+        "Reflection Analysis",
+        "Compile-time Analysis",
+        "Code Quality",
+        "Software Testing"
+      ]
+    },
+    {
+      "name": "Data Analysis & Visualization",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Trace Data Visualization",
+        "Interactive Dashboards",
+        "Jupyter Notebooks",
+        "Data Analysis",
+        "Visual Analytics"
+      ]
+    },
+    {
+      "name": "Research & Analysis",
+      "level": "Expert",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Empirical Studies",
+        "Qualitative Research",
+        "Data Collection",
+        "Statistical Analysis",
+        "Academic Writing"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-tools",
+      "keywords": [
+        "Git",
+        "Jekyll",
+        "AWS",
+        "Spring Boot",
+        "Database Management",
+        "Mobile Development"
       ]
     }
   ],
@@ -192,20 +188,34 @@
   ],
   "interests": [
     {
-      "name": "Software Engineering",
-      "icon": "fa-solid fa-tag",
+      "name": "Software Engineering Research",
+      "icon": "fa-solid fa-laptop-code",
       "keywords": [
-        "Software Static Analysis",
-        "Software Engineering",
-        "Software Debugging",
-        "Mobile Software Engineering"
+        "Static Analysis",
+        "Software Architecture",
+        "Module Systems",
+        "Code Quality",
+        "Software Debugging"
       ]
     },
     {
-      "name": "Human-Computer Interaction",
-      "icon": "fa-solid fa-tag",
+      "name": "Data Visualization",
+      "icon": "fa-solid fa-chart-bar",
       "keywords": [
-        "Data Visualization"
+        "Trace Data Visualization",
+        "Interactive Dashboards",
+        "Visual Analytics",
+        "Jupyter Notebooks"
+      ]
+    },
+    {
+      "name": "Empirical Software Engineering",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Empirical Studies",
+        "Software Metrics",
+        "Research Methodology",
+        "Data Analysis"
       ]
     }
   ],
@@ -222,6 +232,14 @@
 //    }
 //  ],
   "projects": [
+    {
+      "name": "BEAD - Breaking Encapsulation Abuse Detector",
+      "summary": "Developed an automatic detection tool leveraging static analysis to identify encapsulation abuse instances in Java projects. BEAD scans JDK source code to extract module details and analyzes Java programs to extract abuse information from reflection and compile-time invocations. The tool reports abuse instances based on combined module and package information, helping developers address Breaking Strong Encapsulation (BSE) issues in Java Platform Module System (JPMS).",
+      "highlights": ["Java", "Static Analysis", "Module Systems", "Reflection Analysis", "Compile-time Analysis"],
+      "startDate": "2023-12",
+      "endDate": "2024-05",
+      "url": "https://github.com/CyberSakura/BEAD"
+    },
     {
       "name": "Breaking Strong Encapsulation (BSE): A comprehensive Study of Java Module Abuse",
       "summary": "Conducted an empirical study on identifying and characterizing the Breaking Strong Encapsulation(BSE) threats in Java Platform Module System(JPMS). Collected a comprehensive dataset containing 4,079 GitHub issues from various perspectives, including symptoms, abuse sources, desired functionalities, and solutions. Highlighted the need for both practitioners and researchers to develop effective strategies to mitigate BSE problems.",
