@@ -89,7 +89,7 @@
   "publications": [
     {
       "name": "Breaking Strong Encapsulation: A Comprehensive Study of Java Module Abuse",
-      "publisher": "ACM",
+      "publisher": "IEEE/ACM",
       "releaseDate": "2026-05",
       "url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/9/Breaking-Strong-Encapsulation-A-Comprehensive-Study-of-Java-Module-Abuse",
       "summary": "Conducted the first empirical study on Breaking Strong Encapsulation (BSE) in Java Platform Module System (JPMS). Collected and analyzed 4,079 GitHub issues to identify symptoms, abuse sources, and solutions. Our findings reveal a tension between module developers enforcing encapsulation and users attempting to break it, highlighting the need for effective mitigation strategies.",
