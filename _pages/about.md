@@ -8,7 +8,7 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>STH 309</p>
+    <p>Steven and Jann Paul Hall</p>
     <p>6823 St Charles Avenue Building #14 and #16</p>
     <p>New Orleans, LA, 70118</p>
     <hr>
