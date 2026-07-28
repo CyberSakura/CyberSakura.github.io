@@ -1,3 +1,11 @@
+- date: "Jul 2026"
+  content: "Paper accepted to IEEE VIS 2026 - Our full paper entitled 'KeySI: An Interaction Framework for Tuning Text Embeddings Based on Human Feedback' has been accepted to IEEE VIS 2026."
+  type: "publication"
+
+- date: "Jul 2026"
+  content: "Short paper accepted to IEEE VIS 2026 - Our paper entitled 'Debugging as Evidence-Driven Reasoning: Visualization Opportunities in Data-Intensive Programming' has been accepted to IEEE VIS 2026."
+  type: "publication"
+
 - date: "Sep 2025"
   content: "Paper accepted to ICSE 2026 - Our paper entitled 'Breaking Strong Encapsulation: A Comprehensive Study of Java Module Abuse' has been accepted to the 48th International Conference on Software Engineering (ICSE 2026)."
   type: "publication"

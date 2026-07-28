@@ -13,6 +13,36 @@
   preview   = {chen2021paper.png}
 },
 
+@inproceedings{zhu2026keysi,
+  author    = {Zhu, Yan and Chen, Yongbo and Faust, Rebecca},
+  title     = {KeySI: An Interaction Framework for Tuning Text Embeddings Based on Human Feedback},
+  booktitle = {IEEE Visualization Conference (VIS)},
+  year      = {2026},
+  month     = oct,
+  publisher = {IEEE},
+  arxiv     = {2607.20556},
+  pdf       = {https://arxiv.org/pdf/2607.20556.pdf},
+  doi       = {10.48550/arXiv.2607.20556},
+  abstract  = {In large-scale text analysis tasks, pre-trained language models are often used to embed text corpora for downstream analysis. However, such models may struggle to capture domain-specific semantics and adapting them typically requires large amounts of labeled data and technical expertise to implement training pipelines. Recent approaches have demonstrated how visual interactions in document projections can capture human feedback as training signals for model tuning. However, these methods operate on document-level feedback, which requires users to open and assess individual documents in order to provide effective feedback. In this paper, we propose KeySI, an interaction framework that enables feature-level feedback through keyword-based concept specification. Users specify feedback by organizing extracted keywords into groups representing concepts, which KeySI translates into document-level supervision for subsequent tuning. By operating on keywords as the primary interaction medium, KeySI reduces the need for manual document inspection and labeling and lowers the barrier to adapting embedding models. We present a prototype implementation that, given a corpus, curates representative keywords, visualizes keywords and document embeddings via dimensionality reduction, allows interactive specification of keyword groups, and supports iterative refinement through system feedback. We evaluate KeySI through a user study, usage scenarios, and quantitative experiments demonstrating its effectiveness in capturing user intent and improving embedding alignment.},
+  note      = {Accepted},
+  preview   = {yan2026keysi.png}
+}
+
+@inproceedings{chen2026debugging,
+  author    = {Chen, Yongbo and Zhu, Yan and Faust, Rebecca},
+  title     = {Debugging as Evidence-Driven Reasoning: Visualization Opportunities in Data-Intensive Programming},
+  booktitle = {IEEE Visualization Conference (VIS)},
+  year      = {2026},
+  month     = oct,
+  publisher = {IEEE},
+  arxiv     = {2606.30884},
+  pdf       = {https://arxiv.org/pdf/2606.30884.pdf},
+  doi       = {10.48550/arXiv.2606.30884},
+  abstract  = {Visualization has been recognized as a valuable means of supporting debugging by externalizing runtime behavior that would otherwise remain hidden or scattered. However, most visual debugging research has focused on traditional software development settings, leaving the distinct challenges of data-intensive workflows largely uncharacterized. To build visual debugging support for these settings, we first need to characterize how practitioners debug in these settings and translate their challenges into concrete visualization opportunities. To this end, we conducted semi-structured interviews with nine participants from diverse data-intensive domains and analyzed the data using thematic analysis. Our analysis reveals three cross-cutting challenges: assembling fragmented evidence, detecting expected-observed discrepancies, and tracing state evolution across workflow components. We distill these challenges into three concrete requirements that current debuggers support only partially but that visualization is well suited to address: cross-artifact evidence alignment, expectation-grounded comparison, and traceable state evolution. Together, these requirements begin to characterize a design space for future visual debugging research in data-intensive programming.},
+  note      = {Short paper, accepted},
+  preview   = {chen2026visshort.png}
+}
+
 @inproceedings{he2026breaking,
   author    = {He, Yirui and Chen, Yongbo and Ayala, Jessy and Zhou, Yecheng and Wang, Qiran and Garcia, Joshua},
   title     = {Breaking Strong Encapsulation: A Comprehensive Study of Java Module Abuse},
