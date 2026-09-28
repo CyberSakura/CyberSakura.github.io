@@ -29,6 +29,10 @@ profile:
       <a href="https://github.com/CyberSakura" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github"></i> GitHub
       </a>
+      <br>
+      <a href="https://scholar.google.com/citations?user=eRUvzncAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-google-scholar"></i> Google Scholar
+      </a>
     </p>
 
 news: false
