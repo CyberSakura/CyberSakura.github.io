@@ -7,3 +7,17 @@
 
 "Vision":
   color: "#009f36"
+
+"VIS":
+  url: https://ieeevis.org/
+  color: "#006747"
+
+"ICSE":
+  url: https://conf.researchr.org/home/icse-2026
+  color: "#8c1d40"
+
+"EIECS":
+  color: "#5b6b7c"
+
+"Thesis":
+  color: "#3d5a80"

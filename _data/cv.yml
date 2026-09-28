@@ -11,20 +11,20 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Science
+    - title: Ph.D. in Computer Science
       institution: Tulane University, New Orleans, LA
-      year: 2022 - Present
+      year: 2024 - Present
       description:
-        - Research Assistant under supervision of Prof. Rebecca Faust
-        - Focus on software engineering, static analysis, and data visualization
-        - Exploring trace data visualization for Python and Jupyter Notebook debugging
+        - Advisor: Prof. Rebecca Faust
+        - Expected 2029 | GPA: 3.975/4.00
+        - HCI, visualization, and software engineering
     - title: M.S. in Software Engineering
       institution: University of California, Irvine, CA
-      year: 2020 - 2022
+      year: 2022 - 2024
       description:
         - Thesis: "Automatic Detection of Breaking Strong Encapsulation in Java Modules"
-        - Supervised by Prof. Joshua Garcia
-        - Developed BEAD tool for detecting BSE issues using static analysis
+        - Advisor: Prof. Joshua Garcia
+        - GPA: 3.94/4.00
     - title: B.S. in Computer Science and Engineering
       institution: The Ohio State University, Columbus, OH
       year: 2018 - 2022
@@ -34,60 +34,53 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
+    - title: Ph.D. Research Assistant
       institution: Tulane University, New Orleans, LA
-      year: 2022 - Present
+      year: 2024 - Present
       description:
-        - Working under supervision of Prof. Rebecca Faust
-        - Research focus on trace data visualization for debugging Python and Jupyter Notebook scripts
-        - Developing tools for software engineering and static analysis
-    - title: Graduate Research Assistant
+        - Advisor: Prof. Rebecca Faust
+        - Visual support for debugging data workflows
+        - Human feedback for text embedding refinement (KeySI)
+    - title: Graduate Student Researcher
       institution: University of California, Irvine, CA
-      year: 2020 - 2022
+      year: 2023 - 2024
       description:
-        - Conducted research on Java Platform Module System (JPMS)
-        - Developed BEAD tool for detecting Breaking Strong Encapsulation (BSE) issues
-        - Implemented static analysis techniques for Java source code analysis
+        - Advisor: Prof. Joshua Garcia
+        - Empirical study of Java module encapsulation abuse
+        - Developed BEAD static-analysis tool for BSE detection
+    - title: Teaching Assistant
+      institution: Tulane University (CMPS 1600)
+      year: Fall 2026
+      description:
+        - Introduction to Computer Science II
 
-- title: Open Source Projects
+- title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="https://escholarship.org/content/qt2tf1d64x/qt2tf1d64x.pdf?t=shqqb9">BEAD</a>
-      year: 2020-2022
-      description: Automatic Detection of Breaking Strong Encapsulation in Java Modules using static analysis techniques.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - Master's Thesis: "Automatic Detection of Breaking Strong Encapsulation in Java Modules"
-    - year: 2021
-      items:
-        - IEEE Conference Publication: "A New Vehicle Distance Measure Method Based on the License Plate with Image Edge Detection and Color Recognition"
+    - title: <a href="https://github.com/CyberSakura/BEAD">BEAD</a>
+      year: 2023-2024
+      description: Static analysis for detecting Breaking Strong Encapsulation in Java modules.
+    - title: CodeMentor
+      year: 2024
+      description: AI-assisted programming education prototype informed by interviews, surveys, and usability testing.
 
 - title: Research Interests
   type: nested_list
   contents:
+    - title: Human-Computer Interaction & Visualization
+      items:
+        - Visual debugging for data-intensive programming
+        - Interactive human feedback for embedding models
+        - Qualitative study design and design probes
     - title: Software Engineering
       items:
-        - Static analysis and program analysis
-        - Software debugging and trace analysis
-        - Code quality and maintainability
-    - title: Data Visualization
-      items:
-        - Interactive visualization tools
-        - Trace data visualization for debugging
-        - Python and Jupyter Notebook visualization
-    - title: Programming Languages
-      items:
-        - Java Platform Module System (JPMS)
-        - Python development and debugging
-        - Static analysis tool development
+        - Static and program analysis
+        - Module systems and encapsulation
+        - Empirical software engineering
 
 - title: Technical Skills
   type: list
   contents:
-    - <u>Programming Languages:</u> Java, Python, JavaScript, C++, C
-    - <u>Tools & Frameworks:</u> Jekyll, Git, Jupyter Notebook, Static Analysis Tools
-    - <u>Research Areas:</u> Software Engineering, Static Analysis, Data Visualization
+    - <u>Research methods:</u> Interviews, surveys, thematic analysis, study design, design probes, usability testing
+    - <u>Programming:</u> Python, Java, JavaScript, SQL, C, C#
+    - <u>Visualization & analysis:</u> D3.js, pandas, Jupyter, Soot, JavaParser

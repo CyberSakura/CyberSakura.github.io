@@ -149,6 +149,23 @@ td.list-group-link {
  * CV TOC styles
  *****************************/
 
+a.cv-download {
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  color: var(--global-hover-text-color);
+  background: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-hover-text-color);
+    text-decoration: none;
+    opacity: 0.88;
+  }
+}
+
 a.anchor {
   display: block;
   position: relative;

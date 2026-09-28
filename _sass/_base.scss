@@ -615,6 +615,149 @@ footer.sticky-bottom {
   }
 }
 
+// Sectioned pages
+
+.sectioned {
+  h2:not(.bibliography) {
+    position: relative;
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 3rem;
+      height: 3px;
+      background: var(--global-theme-color);
+    }
+  }
+
+  > .clearfix > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  h3 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+// Headings
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: $heading-font;
+}
+
+// Hero
+
+.hero {
+  margin-bottom: 1.75rem;
+
+  .post-title {
+    font-size: 3rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.25rem;
+  }
+
+  .desc {
+    font-size: 1.05rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.9rem;
+  }
+}
+
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hero-tag,
+.project-topic,
+.first-author-badge {
+  display: inline-block;
+  border-radius: 999px;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  background: var(--global-theme-tint);
+}
+
+.hero-tag {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.8rem;
+}
+
+// News timeline
+
+.news-timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0 0 1.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.45rem;
+    width: 2px;
+    background: var(--global-divider-color);
+  }
+}
+
+.news-timeline-item {
+  position: relative;
+  padding-bottom: 1.25rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    left: calc(-1.05rem - 4px);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--global-theme-color);
+    background: var(--global-bg-color);
+  }
+
+  &:first-child::before {
+    background: var(--global-theme-color);
+  }
+}
+
+.news-timeline-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.2rem;
+}
+
+.news-timeline-content {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 // Projects
 
 .projects {
@@ -629,9 +772,39 @@ footer.sticky-bottom {
   }
 
   .card {
+    border: 1px solid var(--global-divider-color);
+    transition:
+      transform 0.18s ease,
+      box-shadow 0.18s ease;
+
     img {
       width: 100%;
+      aspect-ratio: 2 / 1;
+      object-fit: contain;
+      background: #fff;
     }
+
+    .card-title {
+      font-size: 1.35rem;
+      line-height: 1.3;
+    }
+  }
+
+  a:hover .card {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .project-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+  }
+
+  .project-topic {
+    font-size: 0.72rem;
+    padding: 0.1rem 0.55rem;
   }
 
   .col {
@@ -701,8 +874,10 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          letter-spacing: 0.04em;
 
-          a {
+          a,
+          div {
             color: white;
 
             &:hover {
@@ -719,6 +894,15 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .first-author-badge {
+        margin-left: 0.4rem;
+        padding: 0.05rem 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        vertical-align: middle;
       }
 
       .author {

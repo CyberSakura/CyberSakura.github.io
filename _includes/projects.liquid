@@ -14,6 +14,13 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
+        {% if project.topics %}
+          <div class="project-topics">
+            {% for topic in project.topics %}
+              <span class="project-topic">{{ topic }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
